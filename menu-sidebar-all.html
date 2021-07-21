@@ -59,16 +59,23 @@
 
 
             <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseFive"
-                    aria-expanded="true" aria-controls="collapseFive">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseAdmin"
+                    aria-expanded="true" aria-controls="collapseAdmin">
                     <i class="fas fa-fw fa-user"></i>
-                    <span>Admin Section</span>
+                    <span>Admin</span>
                 </a>
-                <div id="collapseFive" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                <div id="collapseAdmin" class="collapse" aria-labelledby="headingAdmin" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header"> Subpages:</h6>
-                        <a class="collapse-item" href="#">Leaves</a>
-                        <a class="collapse-item" href="#">Attendance</a>
+                        <a class="collapse-item" href="#">Employee Leaves</a>
+                        <a class="collapse-item" href="#">Employee Overtime</a>
+                        <a class="collapse-item" href="#">Employee Attendance</a>
+                        <a class="collapse-item" href="#">Holidays</a>
+                        <a class="collapse-item" href="#">Team Type</a>
+                        <a class="collapse-item" href="#">Designation and Hierarchy</a>
+                        <a class="collapse-item" href="#">Leave Details</a>
+                        <a class="collapse-item" href="#"></a>
+                        <a class="collapse-item" href="#">Team Category</a>
                     </div>
                 </div>
             </li>
@@ -79,12 +86,12 @@
 
             <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseThree"
-                    aria-expanded="true" aria-controls="collapseThree">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseEmployee"
+                    aria-expanded="true" aria-controls="collapseEmployee">
                     <i class="fas fa-fw fa-user"></i>
-                    <span>Employee Section</span>
+                    <span>Employee</span>
                 </a>
-                <div id="collapseThree" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                <div id="collapseEmployee" class="collapse" aria-labelledby="headingEmployee" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header"> Components:</h6>
                         <a class="collapse-item" href="#">All Employees</a>
@@ -102,12 +109,12 @@
 
             <!-- Nav Item - Pages Collapse Menu Project -->
             <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseFour"
-                    aria-expanded="true" aria-controls="collapseFour">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseProjects"
+                    aria-expanded="true" aria-controls="collapseProjects">
                     <i class="fas fa-fw fa-user"></i>
-                    <span>Project Section</span>
+                    <span>Project</span>
                 </a>
-                <div id="collapseFour" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                <div id="collapseProjects" class="collapse" aria-labelledby="headingProjects" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Subpages:</h6>
                         <a class="collapse-item" href="#">Projects</a>
@@ -119,67 +126,124 @@
 
              <!-- Nav Item - Client section -->
              <li class="nav-item">
-                <a class="nav-link" href="clients.html">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseClients"
+                    aria-expanded="true" aria-controls="collapseClients">
                     <i class="fas fa-fw fa-user"></i>
-                    <span>Client Section</span></a>
+                    <span>Clients</span>
+                </a>
+                <div id="collapseClients" class="collapse" aria-labelledby="headingClients" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <h6 class="collapse-header">Client Details:</h6>
+                        <a class="collapse-item" href="#">All Clients</a>
+                        <a class="collapse-item" href="#">Client Projects</a>
+                        <a class="collapse-item" href="#">Client Tasks (Teams)</a>
+                        <a class="collapse-item" href="#">Client Tickets</a>
+
+                    </div>
+                </div>
             </li>
 
             <!-- Nav Item - Service Provider section -->
             <li class="nav-item">
-                <a class="nav-link" href="service-provider.html">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseServiceproviders"
+                    aria-expanded="true" aria-controls="collapseServiceproviders">
                     <i class="fas fa-fw fa-user"></i>
-                    <span>Service Provider Section</span></a>
-            </li>
+                    <span>Service Providers</span>
+                </a>
+                <div id="collapseServiceproviders" class="collapse" aria-labelledby="headingServiceproviders" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <h6 class="collapse-header">Service Provider Details:</h6>
+                        <a class="collapse-item" href="#">All Service Providers</a>
+                        <a class="collapse-item" href="#">Service Providers Projects</a>
+                        <a class="collapse-item" href="#">Service Provider Tasks <br/>(Teams)</a>
+                        <a class="collapse-item" href="#">Service Provider Tickets</a>
 
+                    </div>
+                </div>
+            </li>
+            
             <!-- Nav Item - External Experts section -->
             <li class="nav-item">
-                <a class="nav-link" href="external-expert.html">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseExternalexperts"
+                    aria-expanded="true" aria-controls="collapseExternalexperts">
                     <i class="fas fa-fw fa-user"></i>
-                    <span>External Experts Section</span></a>
-            </li>
+                    <span>External Experts</span>
+                </a>
+                <div id="collapseExternalexperts" class="collapse" aria-labelledby="headingExternalexperts" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <h6 class="collapse-header">External Experts Details:</h6>
+                        <a class="collapse-item" href="#">All External Experts</a>
 
-            <!-- Nav Item - Intern section -->
-            <li class="nav-item">
-                <a class="nav-link" href="intern.html">
-                    <i class="fas fa-fw fa-user"></i>
-                    <span>Intern Section</span></a>
-            </li>
-
-            <!-- Nav Item - Leave section -->
-            <li class="nav-item">
-                <a class="nav-link" href="leave.html">
-                    <i class="fas fa-fw fa-user"></i>
-                    <span>Leave Section</span></a>
-            </li>
-
-             
+                    </div>
+                </div>
+            </li>             
 
             <!-- Nav Item - Legal section -->
-             <li class="nav-item">
-                <a class="nav-link" href="legal.html">
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapselegal"
+                    aria-expanded="true" aria-controls="collapselegal">
                     <i class="fas fa-fw fa-user"></i>
-                    <span>Legal Section</span></a>
+                    <span>Legal</span>
+                </a>
+                <div id="collapselegal" class="collapse" aria-labelledby="headinglegal" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <h6 class="collapse-header">Legal Details:</h6>
+                        <a class="collapse-item" href="#">Documents</a>
+                        
+
+                    </div>
+                </div>
             </li>
 
              <!-- Nav Item - Human Resource section -->
              <li class="nav-item">
-                <a class="nav-link" href="human.html">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsehumanresource"
+                    aria-expanded="true" aria-controls="collapsehumanresource">
                     <i class="fas fa-fw fa-user"></i>
-                    <span>Human Resource Section</span></a>
+                    <span>Human Resource</span>
+                </a>
+                <div id="collapsehumanresource" class="collapse" aria-labelledby="headinghumanresource" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <h6 class="collapse-header">HR Details:</h6>
+                        <a class="collapse-item" href="#">Human Resource</a>
+                        
+
+                    </div>
+                </div>
             </li>
 
              <!-- Nav Item - Sales section -->
              <li class="nav-item">
-                <a class="nav-link" href="sales.html">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseSales"
+                    aria-expanded="true" aria-controls="collapseSales">
                     <i class="fas fa-fw fa-user"></i>
-                    <span>Sales Section</span></a>
+                    <span>Sales</span>
+                </a>
+                <div id="collapseSales" class="collapse" aria-labelledby="headingSales" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <h6 class="collapse-header">Sales Details:</h6>
+                        <a class="collapse-item" href="#">Project and Sales Details</a>
+                        
+
+                    </div>
+                </div>
             </li>
 
              <!-- Nav Item - Consultant section -->
              <li class="nav-item">
-                <a class="nav-link" href="consultant.html">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseConsultants"
+                    aria-expanded="true" aria-controls="collapseConsultants">
                     <i class="fas fa-fw fa-user"></i>
-                    <span>Consultant Section</span></a>
+                    <span>Consultants</span>
+                </a>
+                <div id="collapseConsultants" class="collapse" aria-labelledby="headingConsultants" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <h6 class="collapse-header">Consultants Details:</h6>
+                        <a class="collapse-item" href="#">All Consultants</a>
+                        
+
+                    </div>
+                </div>
             </li>
 
 
